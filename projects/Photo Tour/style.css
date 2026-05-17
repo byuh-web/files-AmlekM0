@@ -1,0 +1,51 @@
+
+body {
+    background-image: url("Blue.jpg"), url("Map.jpg");
+
+    background-repeat: no-repeat, repeat-y;
+
+    background-position: left, right ;
+    
+    background-size: 50% 100%, 50% auto; 
+}
+a.active {
+
+    background-color: yellow;
+
+    color: black;
+
+    font-weight: bold;
+
+}
+
+ul {
+
+    list-style-image: url("Blue.jpg");
+
+}
+
+a {
+
+    color: rgb(76, 0, 255);
+
+    text-decoration: none;
+
+}
+
+nav a {
+
+    margin-right: 15px;
+
+    color: black;
+
+}
+
+main {
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    width: 500px;
+
+    padding: 20px;
+
+}
