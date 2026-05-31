@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(31, 91, 2);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#wrapper {
+    margin: 20px auto;
+    width: 850px;
+}
+
+h1 {
+    background-image: url("images.jpg");
+    background-origin: border-box;
+    background-clip: padding-box;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+    color: rgb(23, 139, 0);
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: bold;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+nav a {
+    background-color: rgb(23, 139, 0);
+    border: 2px solid black;
+    border-radius: 6px;
+    color: rgb(34, 255, 0);
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav a:active {
+    background-color: white;
+    color: black;
+}
+
+main {
+    background-color: rgb(15, 248, 81);
+    border: 2px solid black;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+figure {
+    float: right;
+    margin: 0 0 15px 20px;
+    width: 250px;
+}
+
+figure img {
+    border: 10px solid rgb(23, 139, 0);
+    border-radius: 50px;
+    width: 100%;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(23, 139, 0);
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
