@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+nav a {
+    background-color: rgb(20, 220, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.911);
+    font-weight: bold;
+    padding: 8px 20px;
+}
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav a:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+body {
+    background-color: rgb(0, 169, 247);
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 20px;
+    font-size: 15px;
+}
+section {
+    display: grid
+    justify-content:;
+   background-color:rgb(20, 220, 255) ;
+   border: 2px solid black;
+    padding: 20px;
+}
+p {
+    font-size: 20px;
+}
