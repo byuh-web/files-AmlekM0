@@ -1,0 +1,43 @@
+a {
+    background-color: blueviolet;
+    color:darkblue
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+nav a {
+    background-color: darkblue;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    color: blueviolet;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+nav a:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+div{
+    background-color: blueviolet;
+    margine: 10px
+}
+main{
+    background-color:darkblue;
+    color: blueviolet;
+}
+body{
+    background-color: darkblue;
+    color: blueviolet;
+}
+#Paragraph {
+    color:white
+}
+#Header {
+    color:white
+}
